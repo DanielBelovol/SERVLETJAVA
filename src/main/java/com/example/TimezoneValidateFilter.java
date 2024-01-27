@@ -17,7 +17,6 @@ public class TimezoneValidateFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         String param = servletRequest.getParameter("timezone");
-        System.out.println(param);
 
         String regex = "UTC([ -]?(?:1[0-4]|0?[0-9])(:[0-5][0-9])?)";
 
