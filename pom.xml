@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>demo-servlet</artifactId>
+  <artifactId>timeInUTC</artifactId>
 
   <packaging>war</packaging>
 
   <version>1.0-SNAPSHOT</version>
-  <name>demo-servlet Maven Webapp</name>
+  <name>timeInUTC Maven Webapp</name>
 
   <properties>
     <maven.compiler.target>11</maven.compiler.target>
@@ -48,6 +48,6 @@
   </dependencies>
 
   <build>
-    <finalName>demo-servlet</finalName>
+    <finalName>timeInUTC</finalName>
   </build>
 </project>
